@@ -1,0 +1,23 @@
+.main{
+  background-image:url(../images/h_img.jpg);
+  background-size: cover;
+  height: 600px;
+  width: 1300px;
+  overflow-x: hidden;
+  background-repeat: no-repeat;
+}
+.container{
+  background-color: black;
+}
+h1,h6{
+  color: white;
+}
+/*********general**********/
+/***************************/
+.textCenter{
+  text-align: center;
+}
+.imgCenter{
+  position: relative;
+  padding-left: 45%;
+}
