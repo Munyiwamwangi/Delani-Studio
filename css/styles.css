@@ -16,9 +16,9 @@ h1{
   padding-left: 46%;
 }
 .imgCenter1{
-  position: inherit;
+  position: relative;
   padding-left: 48%;
-  padding-bottom: 3%;
+  padding-bottom: 2%;
 }
 .padding5{
   padding: 5%;
@@ -33,11 +33,11 @@ h1{
 .paddingTop3{
   padding-top: 3%;
 }
-.marginTop2{
-  margin-top: 2%;
+.marginTop3{
+  margin-top: 3%;
 }
-.marginTop14{
-  margin-top: 14%;
+.marginTop12{
+  margin-top: 12%;
 }
 .whiteText{
   color: white;
