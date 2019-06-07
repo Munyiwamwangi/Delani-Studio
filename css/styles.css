@@ -13,12 +13,11 @@
   background-image: url(../images/s_image.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-;
 }
 h1{
   color: white;
 }
-/*********general**********/
+/*********GENERAL**********/
 /***************************/
 .imgCenter{
   position: relative;
