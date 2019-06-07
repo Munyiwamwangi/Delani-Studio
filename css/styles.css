@@ -14,6 +14,10 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+.section5{
+  border: 5px solid white;
+  padding: 3%
+}
 h1{
   color: white;
 }
