@@ -16,10 +16,10 @@
 }
 .section5{
   border: 5px solid white;
-  padding: 10%;
+  padding: 10px%;
 }
-.columnDesign{
-  padding: 2%;
+#columnDesign{
+  padding: 10px%;
 }
 h1{
   color: white;
