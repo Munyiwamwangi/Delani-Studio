@@ -1,12 +1,21 @@
+
 .section1{
   background-image:url(../images/h_img.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
+/***********ABOUT US*********/
 .section2{
-  background-image: url(images/s_image.jpg);
+  font-size: 1rem;
+  margin-bottom: 10%
+  spacing:2%
 }
-
+/*********SERVICES*********/
+.section3{
+  background-image: url(../images/s_image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 h1{
   color: white;
 }
@@ -42,6 +51,9 @@ h1{
 }
 .marginTop12{
   margin-top: 12%;
+}
+.marginBottom{
+  margin-bottom: 10%;
 }
 .whiteText{
   color: white;
