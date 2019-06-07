@@ -5,18 +5,24 @@
   background-repeat: no-repeat;
 }
 /***********ABOUT US*********/
+
 .section2{
   font-size: 1rem;
 }
 /*********SERVICES*********/
+
 .section3{
   background-image: url(../images/s_image.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 .section5{
-  border: 5px solid white;
   padding: 10px%;
+  padding: 20px 20px;
+}
+.section6{
+  background-image: url(../images/c_image.jpg);
+  height: 400px;
 }
 #columnDesign{
   padding: 10px%;

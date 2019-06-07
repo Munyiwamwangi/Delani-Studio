@@ -582,6 +582,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  background-color: lightgrey;
 }
 
 .row {
@@ -4674,10 +4675,11 @@ input[type="button"].btn-block {
   display: flex;
   -ms-flex-direction: column;
   flex-direction: column;
+  margin-bottom: 20px;
 }
 
 .card-deck .card {
-  margin-bottom: 15px;
+  margin-bottom: 17px;
 }
 
 @media (min-width: 576px) {
