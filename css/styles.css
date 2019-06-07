@@ -1,8 +1,12 @@
-.main{
+.section1{
   background-image:url(../images/h_img.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
+.section2{
+  background-image: url(images/s_image.jpg);
+}
+
 h1{
   color: white;
 }
@@ -17,7 +21,7 @@ h1{
 }
 .imgCenter1{
   position: relative;
-  padding-left: 48%;
+  padding-left: 49%;
   padding-bottom: 2%;
 }
 .padding5{
