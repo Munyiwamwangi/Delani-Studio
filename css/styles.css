@@ -19,7 +19,7 @@
 }
 .section6{
   background-image: url(../images/c_image.jpg);
-  height: 400px;
+  height: 500px;
 }
 .editorBox{
 
@@ -36,13 +36,16 @@ h1{
   width: 70px;
 }
 .pan0{
-  width:1100px;
-  margin-left: 17% !important;
+  margin-left: 14% !important;
 }
-
+.panel1{
+  max-height: 30px !important;
+}
 /*********GENERAL**********/
 /***************************/
-
+body{
+  overflow-x: hidden;
+}
 .imgCenter{
   position: relative;
   padding-left: 46%;
