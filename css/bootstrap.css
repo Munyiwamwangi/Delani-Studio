@@ -647,7 +647,8 @@ pre code {
 .col-3 {
   -ms-flex: 0 0 25%;
   flex: 0 0 25%;
-  max-width: 25%;
+  max-width: 20%;
+  border: 3px solid white;
 }
 
 .col-4 {
@@ -4675,10 +4676,7 @@ input[type="button"].btn-block {
   display: flex;
   -ms-flex-direction: column;
   flex-direction: column;
-  background-color: lightgrey;
   height: 200px;
-  padding: 7% !important;
-  background-color: lightgrey;
 }
 
 .card-deck .card {

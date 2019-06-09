@@ -17,12 +17,14 @@
   background-repeat: no-repeat;
   height: 400px;
 }
-.section4{
-  margin-top: 3%;
-}
 .section6{
   background-image: url(../images/c_image.jpg);
   height: 400px;
+}
+.editorBox{
+
+  min-height: 200px;
+  max-width: 300px;
 }
 #columnDesign{
   padding: 10px%;
@@ -34,16 +36,10 @@ h1{
   width: 70px;
 }
 .pan0{
-  padding-left: 7%;
-  padding-right: 7%;
-  padding-bottom: 7%;
+  width:1100px;
+  margin-left: 17% !important;
 }
-pan1{
-  padding: 3%;
-}
-.card-img{
-  padding:10%
-}
+
 /*********GENERAL**********/
 /***************************/
 
