@@ -7,7 +7,7 @@
 /***********ABOUT US*********/
 
 .section2{
-  font-size: 1rem;
+  font-size: 15px;
 }
 /*********SERVICES*********/
 
@@ -15,10 +15,10 @@
   background-image: url(../images/s_image.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  height: 400px;
 }
-.section5{
-  padding: 10px%;
-  padding: 20px 20px;
+.section4{
+  margin-top: 3%;
 }
 .section6{
   background-image: url(../images/c_image.jpg);
@@ -31,16 +31,22 @@ h1{
   color: white;
 }
 #p1,#p2,#p3{
-  width: 100px;
+  width: 70px;
+}
+.pan0{
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-bottom: 7%;
+}
+pan1{
+  padding: 3%;
 }
 .card-img{
   padding:10%
 }
 /*********GENERAL**********/
 /***************************/
-body{
-  background-color: lightgrey;
-}
+
 .imgCenter{
   position: relative;
   padding-left: 46%;
@@ -69,8 +75,9 @@ body{
 .marginTop12{
   margin-top: 12%;
 }
-.paddingBottom{
-  padding-bottom: -7% !important;
+.marginBottom{
+  margin-bottom: 6%;
+  margin-top: 6%;
 }
 .whiteText{
   color: white;
