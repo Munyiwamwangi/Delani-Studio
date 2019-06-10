@@ -110,14 +110,12 @@ body {
 }
 
 /*hoovering images */
-.contain-img {}
-
 .align img {
   width: 100%;
 }
 
 .containImages {
-  padding-left: 13%;
+  padding-left: 17%;
 }
 
 .wordStyle h6 {
