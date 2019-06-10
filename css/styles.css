@@ -19,15 +19,6 @@
 }
 .section6{
   background-image: url(../images/c_image.jpg);
-  height: 500px;
-}
-.editorBox{
-  margin-left: 20%;
-  margin-right: 20%;
-}
-.inputs{
-  margin-left: 15%;
-  margin-right: 15%;
 }
 #columnDesign{
   padding: 10px%;
@@ -36,16 +27,13 @@ h1{
   color: white;
 }
 #p1,#p2,#p3{
-  width: 70px;
-}
-.pan0{
-  margin-left: 14% !important;
-}
-.panel1{
-  max-height: 30px !important;
+  width: 50px;
 }
 /*********GENERAL**********/
 /***************************/
+.inputs{
+  background-color:transparent;
+}
 body{
   overflow-x: hidden;
 }
@@ -93,4 +81,26 @@ body{
 .aboutUs{
   padding-top: 5%
   padding-bottom:5%
+}
+/*hoovering images */
+.contain-img{
+
+}
+
+.align img{
+  width: 100%;
+}
+.containImages{
+  padding-left: 13%;
+}
+.wordStyle h6{
+  color: white;
+  position: absolute;
+  bottom:  25%;
+  left: 50px;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 1px 1px #fff;
+  border: 2px solid white;
+  padding: 30px;
 }
