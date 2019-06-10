@@ -64,3 +64,22 @@ $(document).ready(function() {
   });
 });
 //FRONT END// UI
+function callMe(){
+    var getName = document.getElementById("getName").value;
+    var getEmail = document.getElementById("getEmail").value.indexOf("@");
+    var textField = document.getElementById("textField").value;
+  if(getName == ""){
+   alert("enter Name");
+  }
+
+ if( getEmail ==""){
+ alert ("enter Email");
+ }
+ if(textField==""){
+ alert("Enter message");
+ }
+
+ if (name !== "" && email !=="" && textArea !== ""){
+     alert (name + " we have  received your message. Thank you for reaching out to us.")
+ }
+}
