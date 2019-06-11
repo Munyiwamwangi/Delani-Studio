@@ -64,22 +64,33 @@ $(document).ready(function() {
   });
 });
 //FRONT END// UI
-function callMe(){
-    var getName = document.getElementById("getName").value;
-    var getEmail = document.getElementById("getEmail").value.indexOf("@");
-    var textField = document.getElementById("textField").value;
-  if(getName == ""){
-   alert("enter Name");
+$(document).ready(function(){
+  $("#call").click(function(){
+    var name = $("#getName").val();
+    var email = $("#getEmail").val();
+    var text = $("#textField").val();
+  if(name == ""){
+   alert("Enter your Name");
+   return;
   }
 
- if( getEmail ==""){
- alert ("enter Email");
+ else if(email ==""){
+ alert ("Enter your Email");
+ return;
  }
- if(textField==""){
- alert("Enter message");
+ else if(text==""){
+ alert("Enter comment");
+ return;
  }
 
- if (name !== "" && email !=="" && textArea !== ""){
-     alert (name + " we have  received your message. Thank you for reaching out to us.")
+ else{
+     alert (name + " we have  received your message. Thank you for reaching out to us.");
+     return;
  }
-}
+});
+});
+$(document).ready(function(){
+  $("#call").click(function(event){
+    event.preventDefault();
+  });
+});

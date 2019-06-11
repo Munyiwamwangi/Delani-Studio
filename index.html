@@ -179,15 +179,17 @@
         <h3 class="marginTop3 marginBottom"> CONTACT US </h3>
         <form>
           <div class="inputs">
-            <input class="inputs" class="form-control form-control-sm" rows="15" cols="15" type="text" id="getName"
+            <input style="width:400px;" class="inputs" class="form-control form-control-sm" rows="15" cols="15" type="text" id="getName"
               placeholder="Name...">
-            <input class="inputs" class="form-control form-control-sm" rows="15" cols="15" type="text" id="getEmail"
+            <input style="width:400px;" class="inputs" class="form-control form-control-sm" rows="15" cols="15" type="text" id="getEmail"
               placeholder="Email...">
-            <button type="submit" name="button" onClick="callMe()">Submit </button>
+
           </div>
-          <div class="editorBox" id="textField">
-            <textarea class="inputs" type="text" style="background-color:transparent" wrap="hard" spellcheck="true"
-              rows="10" cols="70" placeholder="Your message here ..."></textarea>
+          <div class="editorBox">
+            <textarea id="textField" class="inputs" type="text" style="background-color:transparent" wrap="hard" spellcheck="true"
+              rows="10" cols="80" placeholder="Your message here ..."></textarea><br>
+              <button class="btn-info btn-lg" type="submit" id="call">Submit </button>
+              <button type="reset" class="btn-lg"ame="button">Add Comment</button>
           </div>
         </form>
       </div>
