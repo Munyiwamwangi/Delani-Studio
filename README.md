@@ -9,12 +9,12 @@ This projects is about a fictional studio namely Delani Studio that has unique s
 
 ## BDD
 
-| Action | Behavior |
-| :------- | :--------- |
-| Clicking the images in the "what we do section" | reveals a paragraph that explains the essence of the specific icon to the Studio |
-| Clicking the texts that explains the Image |  This action provokes hiding the image |
-| Commenting in the feedback section |  The user is notified that the information entered is received and thanked through an alert |
-| Clicking the mouse icon | Takes user to "What we do" section |
+ | Action | Behavior |
+ | :------- | :--------- |
+ | Clicking the images in the "what we do section" | reveals a paragraph that explains the essence of the specific icon to the Studio |
+ | Clicking the texts that explains the Image |  This action provokes hiding the image |
+ | Commenting in the feedback section |  The user is notified that the information entered is received and thanked through an alert |
+ | Clicking the mouse icon | Takes user to "What we do" section |
 
 
 ## Project setup instructions
