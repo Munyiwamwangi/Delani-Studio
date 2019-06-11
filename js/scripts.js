@@ -31,36 +31,36 @@ $(document).ready(function() {
 //section5
 $(document).ready(function() {
   $(".one").hide();
-  $("#img1").mouseenter(function() {
+  $("#img1").hover(function() {
     $(".one").slideToggle(100);
   });
-  $(".one").hide();
-  $("#img5").mouseenter(function() {
-    $(".five").slideToggle(100);
+  $(".five").hide();
+  $("#img5").hover(function() {
+    $(".five").slideToggle();
   });
-  $(".one").hide();
-  $("#img2").mouseenter(function() {
-    $(".two").slideToggle(100);
+  $(".two").hide();
+  $("#img2").hover(function() {
+    $(".two").slideToggle();
   });
-  $(".one").hide();
-  $("#img3").mouseenter(function() {
-    $(".three").slideToggle(100);
+  $(".three").hide();
+  $("#img3").hover(function() {
+    $(".three").slideToggle();
   });
-  $(".one").hide();
-  $("#img4").mouseenter(function() {
-    $(".four").slideToggle(100);
+  $(".four").hide();
+  $("#img4").hover(function() {
+    $(".four").slideToggle();
   });
-  $(".one").hide();
-  $("#img6").mouseenter(function() {
-    $(".six").slideToggle(100);
+  $(".six").hide();
+  $("#img6").hover(function() {
+    $(".six").slideToggle();
   });
-  $(".one").hide();
-  $("#img7").mouseenter(function() {
-    $(".seven").slideToggle(100);
+  $(".seven").hide();
+  $("#img7").hover(function() {
+    $(".seven").slideToggle();
   });
-  $(".one").hide();
-  $("#img8").mouseenter(function() {
-    $(".eight").slideToggle(100);
+  $(".eight").hide();
+  $("#img8").hover(function() {
+    $(".eight").slideToggle();
   });
 });
 //FRONT END// UI
